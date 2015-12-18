@@ -41,5 +41,5 @@ task wrapper(type: Wrapper) {
 }
 
 task stage {
-    dependsOn jar
+    dependsOn build
 }
